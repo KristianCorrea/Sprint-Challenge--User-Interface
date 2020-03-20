@@ -70,7 +70,27 @@ p {
     width: 800px;
     margin: 0 auto;
 }
-
+#bar{
+    display: flex;
+    align-items: flex-end;
+    margin: 5% 0;
+}
+#bar img{
+    width: 22%;
+}
+#bar div{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+#bar div a{
+    text-decoration: none;
+    color: black;
+}
+#banner{
+    width: 100%;
+    margin-bottom: 4%;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -144,3 +164,105 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.middle-content .boxes .box1{
+    background-color: teal;
+}
+.middle-content .boxes .box2{
+    background-color: gold;
+}
+.middle-content .boxes .box3{
+    background-color: cadetblue;
+}
+.middle-content .boxes .box4{
+    background-color: coral;
+}
+.middle-content .boxes .box5{
+    background-color: crimson;
+}
+.middle-content .boxes .box6{
+    background-color: forestgreen;
+}
+.middle-content .boxes .box7{
+    background-color: darkorchid;
+}
+.middle-content .boxes .box8{
+    background-color: hotpink;
+}
+.middle-content .boxes .box9{
+    background-color: indigo;
+}
+.middle-content .boxes .box10{
+    background-color: dodgerblue;
+}
+.skinny{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.skinny div{
+    width: 95%;
+}
+#divider{
+    border: 1px dashed black;
+    margin: 4% 0;
+}
+.about-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+.skinny .item{
+    width: 48%;
+    margin-bottom: 6%;
+    padding-bottom: 3%;
+    border-bottom: 1px dashed black;
+}
+.item img{
+    width: 100%;
+    margin-bottom: 3%;
+}
+.item p{
+    margin-bottom: 6%;
+}
+.item button{
+    padding: 2.5% 6%;
+    font-size: 1em;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+#together{
+    margin-bottom: 5%;
+}
+
+
+input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #74dad4;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #4ea59fe0;
+  }
+  
+  .contact-form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
